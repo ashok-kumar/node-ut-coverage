@@ -1,33 +1,17 @@
 {
-  "name": "ut-coverage",
-  "version": "0.0.0",
-  "private": true,
+  "name": "mocha_es6_istanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
-  "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "jade": "~1.11.0",
-    "morgan": "~1.8.1",
-    "eslint": "^1.10.3",
-    "serve-favicon": "~2.4.2"
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "grunt": "^0.4.5",   
-    "grunt-cli": "^0.1.13",
-    "grunt-config-dir": "^0.3.2",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-requirejs": "^0.4.4",
-    "grunt-eslint": "^17.3.2",
-    "grunt-mocha-cli": "^1.14.0",
-    "mocha": "^1.18.0",
-    "supertest": "3.0.0",
-    "sinon": "2.1.0",
-    "chai" : "3.5.0",
-    "istanbul" : "0.4.5"
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.1"
   }
 }
+
